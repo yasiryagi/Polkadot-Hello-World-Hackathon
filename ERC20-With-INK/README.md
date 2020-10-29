@@ -1,8 +1,8 @@
 # [INTERMEDIATE CHALLENGE] 
 # Smart Contracts - Write An ERC-20 Smart Contract With Ink!
 
-* Prof.of UI | Transfer Token From-To 
--[x] https://github.com/burgerking12/Polkadot-Hello-World-Hackathon/tree/main/ERC20-With-INK/prof
+### Prof.of UI | Transfer Token From-To 
+- [x] https://github.com/burgerking12/Polkadot-Hello-World-Hackathon/tree/main/ERC20-With-INK/prof
 * Simple UI | Substrate Front End Template 
 -[x] https://github.com/burgerking12/Polkadot-Hello-World-Hackathon/tree/main/ERC20-With-INK/Frontend-Template
 * Substrate Node Template 
