@@ -31,8 +31,6 @@ yarn add @polkadot/api-contract
 - [x]  Go to your localhost of your  front end template
 
 
-- [x] Now your turn
-
 ### Plugins
 
 
