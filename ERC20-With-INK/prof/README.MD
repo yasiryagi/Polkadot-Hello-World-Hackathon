@@ -22,20 +22,13 @@
     </a>
 </p>
 
-## ALICE (BASE) TRANSFER TO BOB ACCOUNT
+## ALICE (BASE) TRANSFER TO BOB ACCOUNT - DECREASE TOTAL SUPPLY OF ALICE ACCOUNT (BASE)
 <p align="center">
     <a>
         <img src="SS/tf_1.png" alt="Awesome-Burgerking"/>
     </a>
 </p>
 
-
-## TOTAL ALICE (BASE) TOKEN AFTER
-<p align="center">
-    <a>
-        <img src="SS/tf_2.png" alt="Awesome-Burgerking"/>
-    </a>
-</p>
 
 ## TOTAL TOKEN OF BOB ACCOUNT NOW
 <p align="center">
