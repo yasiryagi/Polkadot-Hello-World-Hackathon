@@ -17,22 +17,16 @@ yarn add @polkadot/api-contract
 - [x] upload WASM and METADATA to https://paritytech.github.io/canvas-ui/#/upload
 <p align="center">
     <a>
-        <img src="SS/putting_code_on_chain.png" alt="Awesome-Burgerking"/>
+        <img src="https://raw.githubusercontent.com/burgerking12/Polkadot-Hello-World-Hackathon/main/ERC20-With-INK/Tutorial/upload_wasm%26metadata.png" alt="Awesome-Burgerking"/>
     </a>
 </p>
 
   > - Sign & Submit 
   > - Deploy Code 
-  <p align="center">
-    <a>
-        <img src="SS/putting_code_on_chain.png" alt="Awesome-Burgerking"/>
-    </a>
-</p>
-
   > -  enter init supply 100 and 
     <p align="center">
     <a>
-        <img src="SS/putting_code_on_chain.png" alt="Awesome-Burgerking"/>
+        <img src="https://raw.githubusercontent.com/burgerking12/Polkadot-Hello-World-Hackathon/main/ERC20-With-INK/Tutorial/init_supply.png" alt="Awesome-Burgerking"/>
     </a>
 </p>
   > - go to your localhost of your  front end template
