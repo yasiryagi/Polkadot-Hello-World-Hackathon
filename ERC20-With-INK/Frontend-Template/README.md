@@ -14,7 +14,7 @@ yarn add @polkadot/api-contract
   ```bash 
  yarn start
  ```
-- [x] upload WASM and METADATA to https://paritytech.github.io/canvas-ui/#/upload
+- [x] Upload WASM and METADATA to https://paritytech.github.io/canvas-ui/#/upload
 
   > - sign&submit 
   > - deploy code 
