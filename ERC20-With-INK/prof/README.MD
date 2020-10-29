@@ -1,3 +1,20 @@
+## PUT CODE ON CHAIN
+<p align="center">
+    <a>
+        <img src="putting_code_on_chain.png" alt="Awesome-Burgerking"/>
+    </a>
+</p>
+
+## CONTRACT DEPLOY
+<p align="center">
+    <a>
+        <img src="deploy_code_succes.png" alt="Awesome-Burgerking"/>
+    </a>
+</p>
+
+
+ 
+ 
  ## TOTAL SUPPLY
 <p align="center">
     <a>
