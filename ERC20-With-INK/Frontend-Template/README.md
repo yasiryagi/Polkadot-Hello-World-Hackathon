@@ -1,6 +1,7 @@
 # Front-End-Template
 ## TUTORIAL
 
+- [x] Clone this template
 - [x] Deploy contract on your teminal 
 
 ```bash 
