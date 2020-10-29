@@ -1,5 +1,5 @@
-<p align="center">
-## TOTAL SUPPLY
+## <p align="center">
+ TOTAL SUPPLY
     </p>
 <p align="center">
     <a>
