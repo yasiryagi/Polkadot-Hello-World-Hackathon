@@ -11,9 +11,6 @@
 * Erc20 Smart Contract | BURGER TOKEN 
 > https://github.com/burgerking12/Polkadot-Hello-World-Hackathon/tree/main/ERC20-With-INK/ERC20_BURGER_TOKEN
 
-# [FEEL NOOB??]
-* Tutorial Here : https://github.com/burgerking12/Polkadot-Hello-World-Hackathon/tree/main/ERC20-With-INK/Tutorial
-
 
 ### Plugins
 
