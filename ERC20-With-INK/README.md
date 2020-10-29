@@ -1,4 +1,4 @@
-# Front-End-Javascript-Polkadot | Template
+# [INTERMEDIATE CHALLENGE] Smart Contracts - Write An ERC-20 Smart Contract With Ink!
 * DEMO
 * https://burgerking12-dev.web.app
 
