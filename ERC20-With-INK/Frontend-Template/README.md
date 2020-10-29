@@ -14,11 +14,27 @@ yarn add @polkadot/api-contract
   ```bash 
  yarn start
  ```
-- [x] Upload WASM and METADATA to https://paritytech.github.io/canvas-ui/#/upload
+- [x] upload WASM and METADATA to https://paritytech.github.io/canvas-ui/#/upload
+<p align="center">
+    <a>
+        <img src="SS/putting_code_on_chain.png" alt="Awesome-Burgerking"/>
+    </a>
+</p>
 
-  > - sign&submit 
-  > - deploy code 
+  > - Sign & Submit 
+  > - Deploy Code 
+  <p align="center">
+    <a>
+        <img src="SS/putting_code_on_chain.png" alt="Awesome-Burgerking"/>
+    </a>
+</p>
+
   > -  enter init supply 100 and 
+    <p align="center">
+    <a>
+        <img src="SS/putting_code_on_chain.png" alt="Awesome-Burgerking"/>
+    </a>
+</p>
   > - go to your localhost of your  front end template
 
 
