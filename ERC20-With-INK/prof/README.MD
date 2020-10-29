@@ -1,4 +1,4 @@
-## <p align="center">
+ <p align="center", text="bold">
  TOTAL SUPPLY
     </p>
 <p align="center">
