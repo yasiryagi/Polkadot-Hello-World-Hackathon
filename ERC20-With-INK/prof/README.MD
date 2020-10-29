@@ -1,4 +1,6 @@
+<p align="center">
 ## TOTAL SUPPLY
+    </p>
 <p align="center">
     <a>
         <img src="total_supply.png" alt="Awesome-Burgerking"/>
