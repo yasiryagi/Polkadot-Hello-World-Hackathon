@@ -22,13 +22,13 @@ yarn add @polkadot/api-contract
 </p>
 
  - [x] > - Sign & Submit > - Deploy Code  > -  enter init supply 100 and 
-    <p align="center">
+ <p align="center">
     <a>
         <img src="https://raw.githubusercontent.com/burgerking12/Polkadot-Hello-World-Hackathon/main/ERC20-With-INK/Tutorial/init_supply.png" alt="Awesome-Burgerking"/>
     </a>
 </p>
 
- >  Go to your localhost of your  front end template
+- [x]  Go to your localhost of your  front end template
 
 
 - [x] Now your turn
