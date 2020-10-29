@@ -1,6 +1,13 @@
-# [INTERMEDIATE CHALLENGE] Smart Contracts - Write An ERC-20 Smart Contract With Ink!
-* DEMO
-* https://burgerking12-dev.web.app
+# [INTERMEDIATE CHALLENGE] 
+* Smart Contracts - Write An ERC-20 Smart Contract With Ink!
+* Substrate Node Template : https://github.com/burgerking12/Polkadot-Hello-World-Hackathon/tree/main/ERC20-With-INK/Substrate-Node-Template
+* Substrate Front End Template :https://github.com/burgerking12/Polkadot-Hello-World-Hackathon/tree/main/ERC20-With-INK/Frontend-Template
+* Erc20 Smart Contract | BURGER TOKEN : https://github.com/burgerking12/Polkadot-Hello-World-Hackathon/tree/main/ERC20-With-INK/ERC20_BURGER_TOKEN
+* Prof.of UI | Transfer Token From-To : https://github.com/burgerking12/Polkadot-Hello-World-Hackathon/tree/main/ERC20-With-INK/prof
+* Erc20 Smart Contract | BURGER TOKEN : https://github.com/burgerking12/Polkadot-Hello-World-Hackathon/tree/main/ERC20-With-INK/ERC20_BURGER_TOKEN
+
+# [FEEL NOOB??]
+* Tutorial Here : https://github.com/burgerking12/Polkadot-Hello-World-Hackathon/tree/main/ERC20-With-INK/Tutorial
 
 [![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://github.com/burgerking12/Front-End-Javascript-Polkadot)
 
