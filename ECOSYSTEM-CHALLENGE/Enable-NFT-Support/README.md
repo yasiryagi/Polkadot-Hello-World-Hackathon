@@ -1,14 +1,13 @@
 ## Hackathon: Hello World! by Polkadot
 # [ECOSYSTEM CHALLENGE] Enable NFT Support
 
-### Prof.of UI | Transfer Token From-To 
-- [x] https://github.com/burgerking12/Polkadot-Hello-World-Hackathon/tree/main/ERC20-With-INK/prof
-###  Simple UI | Substrate Front End Template 
-- [x] https://github.com/burgerking12/Polkadot-Hello-World-Hackathon/tree/main/ERC20-With-INK/Frontend-Template
-###  Substrate Node Template | upadate RPC & more
-- [x] https://github.com/burgerking12/Polkadot-Hello-World-Hackathon/tree/main/ERC20-With-INK/Substrate-Node-Template
-###  Erc20 Smart Contract | BURGER TOKEN 
-- [x] https://github.com/burgerking12/Polkadot-Hello-World-Hackathon/tree/main/ERC20-With-INK/ERC20_BURGER_TOKEN
+### Prof.of UI | Transfer Token To | Burn | Mint | Create
+- [x] <p align="center">
+    <a>
+        <img src="https://raw.githubusercontent.com/burgerking12/Polkadot-Hello-World-Hackathon/main/ERC20-With-INK/Tutorial/upload_wasm%26metadata.png" alt="Awesome-Burgerking"/>
+    </a>
+</p>
+
 
 
 
