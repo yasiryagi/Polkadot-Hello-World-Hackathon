@@ -1,7 +1,7 @@
 ## Hackathon: Hello World! by Polkadot
-<p align="center">
+
 # ACALA [ECOSYSTEM CHALLENGE] Enable NFT Support
-    </p>
+
 
 ### Prof.of UI | Transfer Token To | Burn | Mint | Create
 - [x] <p align="center">
