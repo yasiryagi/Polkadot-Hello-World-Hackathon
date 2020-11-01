@@ -1,6 +1,6 @@
 ## Hackathon: Hello World! by Polkadot
 
-# ACALA [ECOSYSTEM CHALLENGE] Enable NFT Support
+# ACALA [ECOSYSTEM CHALLENGE] Enable Multi Currency Support
 
 
 ### Prof.of UI | Token Name | IDR [ Indonesian Rupiah ]
