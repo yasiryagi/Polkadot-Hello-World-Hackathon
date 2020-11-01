@@ -3,7 +3,7 @@
 # ACALA [ECOSYSTEM CHALLENGE] Enable NFT Support
 
 
-### Prof.of UI | Transfer Token To | Burn | Mint | Create
+### Prof.of UI | Token Name | IDR [ Indonesian Rupiah ]
 - [x] <p align="center">
     <a>
         <img src="./IDR_Indonesian_Rupiah.png" alt="Awesome-Burgerking"/>
