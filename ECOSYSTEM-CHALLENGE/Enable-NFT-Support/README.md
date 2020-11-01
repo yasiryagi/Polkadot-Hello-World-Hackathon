@@ -6,7 +6,7 @@
 ### Prof.of UI | Transfer Token To | Burn | Mint | Create
 - [x] <p align="center">
     <a>
-        <img src="https://github.com/burgerking12/Polkadot-Hello-World-Hackathon/blob/main/ECOSYSTEM-CHALLENGE/Enable-NFT-Support/data_burn_cr8_mint_tf_to_token.png" alt="Awesome-Burgerking"/>
+        <img src="./data_burn_cr8_mint_tf_to_token.png" alt="Awesome-Burgerking"/>
     </a>
 </p>
 
