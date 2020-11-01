@@ -23,3 +23,4 @@ with nixpkgs; pkgs.mkShell {
   PROTOC = "${protobuf}/bin/protoc";
   ROCKSDB_LIB_DIR = "${rocksdb}/lib";
 }
+
