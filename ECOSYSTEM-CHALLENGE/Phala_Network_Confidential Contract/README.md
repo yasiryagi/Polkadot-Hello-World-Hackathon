@@ -26,6 +26,9 @@
   - [x]  WEB UI : https://github.com/Phala-Network/apps-ng/compare/master...burgerking12:master
   - [x]  CORE BLOCKCHAIN : https://github.com/Phala-Network/phala-blockchain/compare/master...burgerking12:master
 
+# TWITTER POST
+  - [x]  TWITTER STATUS : https://twitter.com/chikal101/status/1323159400194863106
+
 ### Plugins
 
 | Plugin | Link |
