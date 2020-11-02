@@ -6,16 +6,16 @@
 ### Prof.of UI | Terminal | Sending Tx | Sending Tx Succeeded | Update Value
 - [x] <p align="center">
     <a>
-        <img src="./3_terminal.png" alt="Awesome-Burgerking"/>
+        <img src="./prof/3_terminal.png" alt="Awesome-Burgerking"/>
     </a>
   <a>
-        <img src="./Sending_tx.png" alt="Awesome-Burgerking"/>
+        <img src="./prof/Sending_tx.png" alt="Awesome-Burgerking"/>
     </a>
   <a>
-        <img src="./Sending_tx_succeeded.png" alt="Awesome-Burgerking"/>
+        <img src="./prof/Sending_tx_succeeded.png" alt="Awesome-Burgerking"/>
     </a>
   <a>
-        <img src="./updated_value.png" alt="Awesome-Burgerking"/>
+        <img src="./prof/updated_value.png" alt="Awesome-Burgerking"/>
     </a>
 </p>
 
