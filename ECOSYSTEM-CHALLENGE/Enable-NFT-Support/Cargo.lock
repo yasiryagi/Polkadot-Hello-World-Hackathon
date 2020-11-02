@@ -9,7 +9,6 @@ dependencies = [
  "lazy_static",
  "regex",
 ]
-
 [[package]]
 name = "addr2line"
 version = "0.13.0"
