@@ -22,10 +22,10 @@
 
 # LINK CHANGING APPS-NG AND PHALA  BLOCKCHAIN
 
-- [x] <p align="center">
-  ## WEB UI : https://github.com/Phala-Network/apps-ng/compare/master...burgerking12:master
-  ## CORE BLOCKCHAIN : https://github.com/Phala-Network/phala-blockchain/compare/master...burgerking12:master
-  </P>
+
+  - [x]  WEB UI : https://github.com/Phala-Network/apps-ng/compare/master...burgerking12:master
+  - [x]  CORE BLOCKCHAIN : https://github.com/Phala-Network/phala-blockchain/compare/master...burgerking12:master
+
 ### Plugins
 
 | Plugin | Link |
