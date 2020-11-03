@@ -1,0 +1,14 @@
+{
+  "name": "backend-js",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "authors": "Burgerking12",
+  "dependencies": {
+    "@polkadot/api": "^2.4.1",
+    "chalk": "^4.1.0"
+  },
+  "scripts": {
+    "start": "node index.js"
+  }
+}
