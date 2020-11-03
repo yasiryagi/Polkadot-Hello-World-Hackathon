@@ -6,7 +6,7 @@
 ### Prof.of UI | SEARCH BY BLOCK NUMBER | KUSAMA
 - [x] <p align="center">
     <a>
-        <img src="./IDR_Indonesian_Rupiah.png" alt="Awesome-Burgerking"/>
+        <img src="./prof_backend.png" alt="Awesome-Burgerking"/>
     </a>
 </p>
 
