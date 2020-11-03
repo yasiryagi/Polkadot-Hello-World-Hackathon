@@ -2,6 +2,19 @@
 
 # POLKADOT [BEGINNER CHALLENGES] Backend Javascript
 
+## To install dependencies:
+```sh
+• yarn / yarn install
+```
+## To start a production:
+```sh
+• yarn start
+```
+## To find by block number:
+```sh
+• yarn start <Number of block>
+```
+- [x] example: yarn start 4754830
 
 ### Prof.of UI | SEARCH BY BLOCK NUMBER | KUSAMA
 - [x] <p align="center">
