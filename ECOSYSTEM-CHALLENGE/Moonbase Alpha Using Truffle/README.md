@@ -8,7 +8,7 @@
 ### Prof.of UI | compile with Truffle
 - [x] <p align="center">
     <a>
-        <img src="./deploy_contract.png" alt="Awesome-Burgerking"/>
+        <img src="./init_migrateaa.png" alt="Awesome-Burgerking"/>
     </a>
     <a>
         <img src="./init_contracta.png" alt="Awesome-Burgerking"/>
