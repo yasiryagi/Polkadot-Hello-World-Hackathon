@@ -1,5 +1,13 @@
 # COMPLETED 18 CHALLENGES | Polkadot Hello World-Hackathon
 ## Hackathon: Hello World! by Polkadot
+#### POLKADOT ADDRESS : 167WQmqMM6sqDu5b7TJZBcHqepP8DEMjcx6Nkg9DkXAAetbv
+#### KUSAMA ADDRESS : CzTPyjcV4co6QZf6BCmTwmaU31fQWu8eLq1qb14hDDd9xDP
+#### IF THERE'S SOMETHING MISTAKE WITH MY SUBMISSION PLEASE CONTACT ME ANYTIME:
+#### MY SOCIAL MEDIA
+- [X]. LINKEDIN : https://www.linkedin.com/in/agin-dropdisco-5555b7171/
+- [X]. TWITTER : https://twitter.com/agin_webdev
+- [X]. EMAIL : dropdisco1408@gmail.com | dwidarto4@gmail.com
+
 
  
 #### 1. [BEGINNER CHALLENGE] Launch a local Substrate development chain
