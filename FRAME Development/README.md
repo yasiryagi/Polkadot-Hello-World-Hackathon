@@ -3,7 +3,7 @@
 # POLKADOT [INTERMEDIATE CHALLENGE] FRAME Development
 
 
-### Prof.of UI | FRAME | QUERY |
+### Prof.of UI | INTERACTOR| FRAME | QUERY |
 - [x] <p align="center">
     <a>
         <img src="./dev1.png" alt="Awesome-Burgerking"/>
