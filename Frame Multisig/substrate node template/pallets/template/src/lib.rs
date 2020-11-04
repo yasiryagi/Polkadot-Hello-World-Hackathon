@@ -48,7 +48,7 @@ decl_module! {
 
 		fn deposit_event() = default;
 
-		#[weight = 10000]
+		#[weight = 10_000]
 		fn add_book(origin, name: Vec<u8>, author: Vec<u8>) -> dispatch::DispatchResult {
 			let sender = ensure_signed(origin)?;
 			let new_book = FavBook{
