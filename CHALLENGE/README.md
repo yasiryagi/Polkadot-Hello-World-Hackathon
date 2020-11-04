@@ -2,7 +2,7 @@
 ## Hackathon: Hello World! by Polkadot
 
  
-### 1. [BEGINNER CHALLENGE] Launch a local Substrate development chain
+#### 1. [BEGINNER CHALLENGE] Launch a local Substrate development chain
 ### https://raw.githubusercontent.com/burgerking12/Polkadot-Hello-World-Hackathon/main/remarkpng.png
 
 ### 2. [BEGINNER CHALLENGE] Run a private Substrate network
