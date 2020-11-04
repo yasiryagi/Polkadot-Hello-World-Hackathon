@@ -17,7 +17,7 @@ export default function Main (props) {
   return (
     <Grid.Column width={8} style={{ textAlign: 'center'}}>
       <h1>Multisig Transfer</h1>
-      <Message size='mini' color='red'> ⌛ DON'T USE ALICE ADDRESS [ BASE ] AS A SIGNATORIES</Message>
+      <Message size='mini' color='red'> <span role="img" aria-label="hourglass">⌛</span>DON'T USE ALICE ADDRESS [ BASE ] AS A SIGNATORIES</Message>
       <Form>
         <Form.Field>
           <Label basic color='blue' pointing = 'left'>
@@ -33,8 +33,7 @@ export default function Main (props) {
             type='text'
             placeholder='address'
             state='addressTo'
-            onChange={onChange}
-          />
+            onChange={onChange} />
         </Form.Field>
         <Form.Field>
           <Input
@@ -42,8 +41,7 @@ export default function Main (props) {
             label='Amount'
             type='number'
             state='amount'
-            onChange={onChange}
-          />
+            onChange={onChange} />
         </Form.Field>
         <Form.Field>
           <Input
@@ -52,8 +50,7 @@ export default function Main (props) {
             type='number'
             placeholder='Max as 10'
             state='threshold'
-            onChange={onChange}
-          />
+            onChange={onChange} />
         </Form.Field>
         <Form.Field>
           <Input
