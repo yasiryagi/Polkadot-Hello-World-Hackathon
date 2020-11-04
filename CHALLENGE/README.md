@@ -1,10 +1,6 @@
-# COMPLETED 18 CHALLENGES
+# COMPLETED 18 CHALLENGES | Polkadot Hello World-Hackathon
 ## Hackathon: Hello World! by Polkadot
-# COMPLETED 18 CHALLENGES
 
-# Polkadot Hello World-Hackathon
-
-[BEGINNER CHALLENGE] Run a private Substrate network
  
 ### 1. [BEGINNER CHALLENGE] Launch a local Substrate development chain
 ### https://raw.githubusercontent.com/burgerking12/Polkadot-Hello-World-Hackathon/main/remarkpng.png
