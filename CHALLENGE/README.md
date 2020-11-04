@@ -8,7 +8,7 @@
 # 1. [BEGINNER CHALLENGE] Launch a local Substrate development chain
  
 - [x] <p align="center">
-    <a href="https://raw.githubusercontent.com/burgerking12/Polkadot-Hello-World-Hackathon/main/remarkpng.png">
+    <a> https://raw.githubusercontent.com/burgerking12/Polkadot-Hello-World-Hackathon/main/remarkpng.png">
     </a>
 </p>
 
