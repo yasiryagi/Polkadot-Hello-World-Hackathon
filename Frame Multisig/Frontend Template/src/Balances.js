@@ -28,7 +28,7 @@ export default function Main (props) {
   return (
     <Grid.Column width={8} style={{ textAlign: 'center' }}>
       {/* <Label size='medium' color='grey'>⛪ COPY THE ADDRESS</Label> */}
-      <Message color='grey'> ⛪ COPY THE ADDRESS </Message>
+      <Message color='grey'> <span role="img" aria-label="church">⛪</span> COPY THE ADDRESS </Message>
       <Table celled striped size='small'>
         <Table.Body>{accounts.map(account =>
           <Table.Row key={account.address}>
