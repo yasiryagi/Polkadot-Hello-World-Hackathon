@@ -66,8 +66,6 @@ function Main(props) {
               <Table.Cell>{blockInfo.extrinsicsRoot.toHuman()}</Table.Cell>
             </Table.Row>
           </Table.Body>
-
-          {/* <Table.Footer>Block information with block hash</Table.Footer> */}
         </Table>
       )}
     </Grid.Column>
