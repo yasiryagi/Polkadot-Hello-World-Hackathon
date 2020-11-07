@@ -63,3 +63,6 @@
 
 #### 18. [INTERMEDIATE CHALLENGE] FRAME Development
 #### https://github.com/burgerking12/Polkadot-Hello-World-Hackathon/tree/main/FRAME%20Development
+
+#### 19. [ADVANCED CHALLENGE] REST APIs - Read An Account's Pending Payouts
+#### https://github.com/burgerking12/Polkadot-Hello-World-Hackathon/tree/main/Rest%20Apis
