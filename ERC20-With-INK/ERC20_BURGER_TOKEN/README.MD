@@ -9,5 +9,8 @@ Created following the tutorial: https://substrate.dev/substrate-contracts-worksh
 • cargo +nightly-2020-10-06 contract build
 • cargo +nightly-2020-10-06 contract generate-metadata
 • cargo +nightly-2020-10-06 test
+Optional
 • canvas --dev --tmp
+• node-template --dev 
+
 ```
