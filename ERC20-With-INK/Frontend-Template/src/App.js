@@ -6,12 +6,14 @@ import { SubstrateContextProvider, useSubstrate } from './substrate-lib';
 import { DeveloperConsole } from './substrate-lib/components';
 
 import AccountSelector from './AccountSelector';
-// import Balances from './Balances';
+import Balances from './Balances';
 import BlockNumber from './BlockNumber';
 import Events from './Events';
 import Metadata from './Metadata';
 import NodeInfo from './NodeInfo';
-import Bgtransfer from './BurgerkingTf';
+import Transfer from './Transfer';
+import SelectMove from './SelectorMove';
+
 
 function Main () {
   const [accountAddress, setAccountAddress] = useState(null);
@@ -31,7 +33,7 @@ function Main () {
       <Grid.Column>
         <Message negative compact floating
           header='Error Connecting to Substrate'
-          content={`${err}`}
+          content={`${JSON.stringify(err, null, 4)}`}
         />
       </Grid.Column>
     </Grid>;
@@ -47,34 +49,38 @@ function Main () {
 
   return (
     <div ref={contextRef}>
-        <Sticky context={contextRef}>
-            <AccountSelector setAccountAddress={setAccountAddress}/>
-        </Sticky>
-        <Container>
-            <Grid stackable columns='equal'>
-                <Grid.Row stretched>
-                    <NodeInfo/>
-                    <Metadata/>
-                    <BlockNumber/>
-                    <BlockNumber finalized/>
-                </Grid.Row>
-                <Grid.Row>
-                    <Bgtransfer accountPair={accountPair}/>
-                </Grid.Row>
-                <Grid.Row>
-                    <Events/>
-                </Grid.Row>
-            </Grid>
-        </Container>
-        <DeveloperConsole/>
+      <Sticky context={contextRef}>
+        <SelectMove />
+      </Sticky>
+      <Container>
+        <Grid stackable columns='equal'>
+          <Grid.Row stretched>
+            <NodeInfo />
+            <Metadata />
+            <BlockNumber />
+            <BlockNumber finalized />
+          </Grid.Row>
+          <Grid.Row textAlign="center">
+            <Transfer accountPair={accountPair} />
+            <Events />
+          </Grid.Row>
+          <Grid.Column textAlign="center">
+            <AccountSelector setAccountAddress={setAccountAddress} />
+          </Grid.Column>
+          <Grid.Row>
+          <Balances />
+          </Grid.Row>
+        </Grid>
+      </Container>
+      <DeveloperConsole />
     </div>
-);
+  );
 }
 
-export default function App() {
-return (
+export default function App () {
+  return (
     <SubstrateContextProvider>
-        <Main/>
+      <Main />
     </SubstrateContextProvider>
-);
+  );
 }

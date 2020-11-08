@@ -14,19 +14,24 @@ export default function Main (props) {
 
   return (
     <Grid.Column width={8}>
-      <h1>Transfer</h1>
+      <h1> BURGER TOKEN </h1>
       <Form>
         <Form.Field>
-          <Label basic color='teal'>
-            <Icon name='hand point right' />
+        <Label basic color='blue' pointing = 'left'>
+            <Icon name='fork' content='Fork'/>
+            {/* <Label pointing = 'left' basic = 'true' color ='blue'/> */}
             1 Unit = 1000000000000
           </Label>
+          {/* <Label basic color='teal'>
+            <Icon name='hand point right' />
+            1 Unit = 1000000000000
+          </Label> */}
         </Form.Field>
         <Form.Field>Transfer more than the existential amount for account with 0 balance</Form.Field>
         <Form.Field>
           <Input
             fluid
-            label='To'
+            label='Transfer To'
             type='text'
             placeholder='address'
             state='addressTo'
@@ -36,7 +41,7 @@ export default function Main (props) {
         <Form.Field>
           <Input
             fluid
-            label='Amount'
+            label='Amount of Burger Token'
             type='number'
             state='amount'
             onChange={onChange}

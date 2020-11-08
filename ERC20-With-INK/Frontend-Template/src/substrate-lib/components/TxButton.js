@@ -6,6 +6,8 @@ import { web3FromSource } from '@polkadot/extension-dapp';
 import { useSubstrate } from '../';
 import utils from '../utils';
 
+import BurgerContract from '../../burgertoken';
+
 function TxButton ({
   accountPair = null,
   label,
@@ -38,6 +40,7 @@ function TxButton ({
       sudoKey.isEmpty ? setSudoKey(null) : setSudoKey(sudoKey.toString());
     })();
   };
+  const contract = BurgerContract(api);
 
   useEffect(loadSudoKey, [api]);
 
@@ -95,12 +98,20 @@ function TxButton ({
     const fromAcct = await getFromAcct();
     const transformed = transformParams(paramFields, inputParams);
     // transformed can be empty parameters
-
+    /*
     const txExecute = transformed
       ? api.tx[palletRpc][callable](...transformed)
       : api.tx[palletRpc][callable]();
 
     const unsub = await txExecute.signAndSend(fromAcct, txResHandler)
+      .catch(txErrHandler);
+    setUnsub(() => unsub);
+    */
+    const [to, amount] = transformed;
+    const gasLimit = -1;
+    const unsub = await contract.tx
+      .transfer(0, gasLimit, to, amount)
+      .signAndSend(fromAcct, txResHandler)
       .catch(txErrHandler);
     setUnsub(() => unsub);
   };

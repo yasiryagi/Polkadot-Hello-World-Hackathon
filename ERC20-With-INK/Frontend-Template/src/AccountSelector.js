@@ -12,6 +12,7 @@ import {
 } from 'semantic-ui-react';
 
 import { useSubstrate } from './substrate-lib';
+import BurgerContractBeta from './burgertoken';
 
 function Main (props) {
   const { keyring } = useSubstrate();
@@ -42,40 +43,12 @@ function Main (props) {
   };
 
   return (
-    <Menu
-      attached='top'
-      tabular
-      style={{
-        backgroundColor: '#fff',
-        borderColor: '#fff',
-        paddingTop: '1em',
-        paddingBottom: '1em'
-      }}
-    >
+
       <Container>
         {/* <Menu.Menu>
           <Image src={`${process.env.PUBLIC_URL}/assets/substrate-logo.png`} size='mini' />
         </Menu.Menu> */}
-        <Menu.Menu>
-          <Image
-            src={`${process.env.PUBLIC_URL}/assets/substrate-logo.png`}
-            size='mini'
-          />
-        </Menu.Menu>
-        <Menu.Menu position='right' style={{ alignItems: 'center' }}>
-
-        </Menu.Menu>
-        <Menu.Menu position='right' style={{ alignItems: 'center' }}>
-        <Label position='right' as='a' color='blue' 
-      href ='https://github.com/burgerking12/Frontend-Template-Host'
-      target='_blank'
-      image>
-      <Image
-            src={`${process.env.PUBLIC_URL}/assets/veronika.jpg`}
-          />
-      Burgerking12
-      <Label.Detail>Github</Label.Detail>
-    </Label>
+        <Menu.Menu position='right' style={{ alignItems: 'center'}}>
           { !accountSelected
             ? <span>
               Add your account with the{' '}
@@ -88,13 +61,14 @@ function Main (props) {
               </a>
             </span>
             : null }
+            
           <CopyToClipboard text={accountSelected}>
             <Button
               basic
               circular
-              size='large'
+              size='mini'
               icon='user'
-              color={accountSelected ? 'green' : 'red'}
+              color={accountSelected ? 'grey' : 'red'}
             />
           </CopyToClipboard>
           <Dropdown
@@ -111,7 +85,6 @@ function Main (props) {
           <BalanceAnnotation accountSelected={accountSelected} />
         </Menu.Menu>
       </Container>
-    </Menu>
   );
 }
 
@@ -119,6 +92,7 @@ function BalanceAnnotation (props) {
   const { accountSelected } = props;
   const { api } = useSubstrate();
   const [accountBalance, setAccountBalance] = useState(0);
+  const contract = BurgerContractBeta(api);
 
   // When account address changes, update subscriptions
   useEffect(() => {
@@ -126,11 +100,12 @@ function BalanceAnnotation (props) {
 
     // If the user has selected an address, create a new subscription
     accountSelected &&
-      api.query.system.account(accountSelected, balance => {
-        setAccountBalance(balance.data.free.toHuman());
-      })
-        .then(unsub => {
-          unsubscribe = unsub;
+      contract.query.balanceOf(accountSelected, 0, -1, accountSelected)
+        .then(({ output }) => {
+          setAccountBalance(output.toHuman());
+        })
+        .then(sub => {
+          unsubscribe = sub;
         })
         .catch(console.error);
 
