@@ -43,25 +43,22 @@
 ===========================================================================
 
 ## PROF SUCCSEEDED
-###  JOIN | DRAW AFTER 15 MINUTES | JOIN / SNED BETWEEN 0.01 and 0.1 TOKENS
+###  JOIN | DRAW AFTER 15 MINUTES | JOIN / SNED BETWEEN 0.01 and 0.1 TOKENS | WINNERS
 - [x] <p align="center">
     <a>
-        <img src="./IDR_Indonesian_Rupiah.png" alt="Awesome-Burgerking"/>
+        <img src="./sucsess/0_01.png" alt="Awesome-Burgerking"/>
     </a>
    <a>
-        <img src="./IDR_Indonesian_Rupiah.png" alt="Awesome-Burgerking"/>
+        <img src="./sucsess/0_01_sucses.png"" alt="Awesome-Burgerking"/>
     </a>
    <a>
-        <img src="./IDR_Indonesian_Rupiah.png" alt="Awesome-Burgerking"/>
+        <img src="./sucsess/0_1.png"" alt="Awesome-Burgerking"/>
     </a>
    <a>
-        <img src="./IDR_Indonesian_Rupiah.png" alt="Awesome-Burgerking"/>
+        <img src="./sucsess/0_1_sucses.png"" alt="Awesome-Burgerking"/>
     </a>
    <a>
-        <img src="./IDR_Indonesian_Rupiah.png" alt="Awesome-Burgerking"/>
-    </a>
-   <a>
-        <img src="./IDR_Indonesian_Rupiah.png" alt="Awesome-Burgerking"/>
+        <img src="./sucsess/showoff_winner1.png"" alt="Awesome-Burgerking"/>
     </a>
 </p>
 
