@@ -1,6 +1,4 @@
 # Substrate Node Template
-> cd Substrate-Node-Template
-> ~~cd substrate-node-template~~
 
 A new FRAME-based Substrate node, ready for hacking :rocket:
 
@@ -22,14 +20,7 @@ Once the development environment is set up, build the node template. This comman
 ```bash
 WASM_BUILD_TOOLCHAIN=nightly-2020-10-05 cargo build --release
 ```
-## Got an error with? use this
-```bash
-rustup toolchain install nightly-2020-10-06
-rustup install nightly-2020-10-06
-rustup override set nightly-2020-10-06
-rustup target add wasm32-unknown-unknown --toolchain nightly-2020-10-06
-cargo +nightly-2020-10-06  build --release
-```
+
 ## Run
 
 ### Single Node Development Chain

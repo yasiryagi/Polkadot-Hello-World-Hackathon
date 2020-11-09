@@ -6,6 +6,7 @@
 #![warn(missing_docs)]
 
 use std::sync::Arc;
+
 use node_template_runtime::{opaque::Block, AccountId, Balance, Index, BlockNumber};
 use sp_api::ProvideRuntimeApi;
 use sp_blockchain::{Error as BlockChainError, HeaderMetadata, HeaderBackend};
@@ -13,7 +14,6 @@ use sp_block_builder::BlockBuilder;
 pub use sc_rpc_api::DenyUnsafe;
 use sp_transaction_pool::TransactionPool;
 use pallet_contracts_rpc::{Contracts, ContractsApi};
-
 
 /// Full client dependencies.
 pub struct FullDeps<C, P> {
@@ -33,11 +33,10 @@ pub fn create_full<C, P>(
 	C: HeaderBackend<Block> + HeaderMetadata<Block, Error=BlockChainError> + 'static,
 	C: Send + Sync + 'static,
 	C::Api: substrate_frame_rpc_system::AccountNonceApi<Block, AccountId, Index>,
+	C::Api: pallet_contracts_rpc::ContractsRuntimeApi<Block, AccountId, Balance, BlockNumber>,
 	C::Api: pallet_transaction_payment_rpc::TransactionPaymentRuntimeApi<Block, Balance>,
 	C::Api: BlockBuilder<Block>,
 	P: TransactionPool + 'static,
-	    /*** Add This Line ***/
-	C::Api: pallet_contracts_rpc::ContractsRuntimeApi<Block, AccountId, Balance, BlockNumber>,
 {
 	use substrate_frame_rpc_system::{FullSystem, SystemApi};
 	use pallet_transaction_payment_rpc::{TransactionPayment, TransactionPaymentApi};
@@ -57,16 +56,12 @@ pub fn create_full<C, P>(
 		TransactionPaymentApi::to_delegate(TransactionPayment::new(client.clone()))
 	);
 
-	/*** Add This Block ***/
-	io.extend_with(
-		ContractsApi::to_delegate(Contracts::new(client.clone()))
-	);
-	/*** End Added Block ***/
-
 	// Extend this RPC with a custom API by using the following syntax.
 	// `YourRpcStruct` should have a reference to a client, which is needed
 	// to call into the runtime.
 	// `io.extend_with(YourRpcTrait::to_delegate(YourRpcStruct::new(ReferenceToClient, ...)));`
-
+    io.extend_with(
+        ContractsApi::to_delegate(Contracts::new(client.clone()))
+    );
 	io
 }
