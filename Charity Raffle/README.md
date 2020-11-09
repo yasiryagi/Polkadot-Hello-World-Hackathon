@@ -3,6 +3,13 @@
 # POLKADOT [ADVANCED CHALLENGE] Smart Contracts - Build A Charity Raffle
 ## Smart Contract Code : https://github.com/burgerking12/Polkadot-Hello-World-Hackathon/tree/main/Charity%20Raffle/Code
 
+## START ENTRY
+- [x] <p align="center">
+    <a>
+        <img src="./start_entry/supp1.png" alt="Awesome-Burgerking"/>
+    </a>
+    </p>
+
 ## PROF FAILED CUZ BREAK THE RULES
 ### FAILED TO JOIN | DRAW BEFORE 15 MINUTES | TRY TO JOIN THE SECOND TIME
 - [x] <p align="center">
