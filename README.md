@@ -1,4 +1,4 @@
-# COMPLETED 18 CHALLENGES | Polkadot Hello World-Hackathon
+# COMPLETED 18 CHALLENGES OR MORE | Polkadot Hello World-Hackathon
 ## Hackathon: Hello World! by Polkadot
 #### POLKADOT ADDRESS : 167WQmqMM6sqDu5b7TJZBcHqepP8DEMjcx6Nkg9DkXAAetbv
 #### KUSAMA ADDRESS : CzTPyjcV4co6QZf6BCmTwmaU31fQWu8eLq1qb14hDDd9xDP
@@ -66,3 +66,6 @@
 
 #### 19. [ADVANCED CHALLENGE] REST APIs - Read An Account's Pending Payouts
 #### https://github.com/burgerking12/Polkadot-Hello-World-Hackathon/tree/main/Rest%20Apis
+
+#### 20. [ADVANCED CHALLENGE] Smart Contracts - Build A Charity Raffle
+#### https://github.com/burgerking12/Polkadot-Hello-World-Hackathon/tree/main/Charity%20Raffle
