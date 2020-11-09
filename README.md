@@ -4,8 +4,7 @@
 #### KUSAMA ADDRESS : CzTPyjcV4co6QZf6BCmTwmaU31fQWu8eLq1qb14hDDd9xDP
 #### IF THERE'S SOMETHING MISTAKE WITH MY SUBMISSION PLEASE CONTACT ME ANYTIME:
 #### MY SOCIAL MEDIA
-- [X] LINKEDIN : https://www.linkedin.com/in/agin-dropdisco-5555b7171/
-- [X] TWITTER : https://twitter.com/agin_webdev
+
 - [X] EMAIL : dropdisco1408@gmail.com | dwidarto4@gmail.com
 
 
