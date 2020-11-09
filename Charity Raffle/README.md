@@ -49,16 +49,16 @@
         <img src="./sucsess/0_01.png" alt="Awesome-Burgerking"/>
     </a>
    <a>
-        <img src="./sucsess/0_01_sucses.png"" alt="Awesome-Burgerking"/>
+        <img src="./sucsess/0_01_sucses.png" alt="Awesome-Burgerking"/>
     </a>
    <a>
-        <img src="./sucsess/0_1.png"" alt="Awesome-Burgerking"/>
+        <img src="./sucsess/0_1.png" alt="Awesome-Burgerking"/>
     </a>
    <a>
-        <img src="./sucsess/0_1_sucses.png"" alt="Awesome-Burgerking"/>
+        <img src="./sucsess/0_1_sucses.png" alt="Awesome-Burgerking"/>
     </a>
    <a>
-        <img src="./sucsess/showoff_winner1.png"" alt="Awesome-Burgerking"/>
+        <img src="./sucsess/showoff_winner1.png" alt="Awesome-Burgerking"/>
     </a>
 </p>
 
