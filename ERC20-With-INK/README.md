@@ -8,7 +8,7 @@
 ###  Substrate Node Template | upadate RPC & more
 - [x] https://github.com/burgerking12/Polkadot-Hello-World-Hackathon/tree/main/ERC20-With-INK/Substrate-Node-Template
 ###  Erc20 Smart Contract | BURGER TOKEN 
-- [x] https://github.com/burgerking12/Polkadot-Hello-World-Hackathon/tree/main/ERC20-With-INK/ERC20_BURGER_TOKEN
+- [x] https://github.com/burgerking12/Polkadot-Hello-World-Hackathon/tree/main/ERC20-With-INK/Burger-Token
 
 
 
